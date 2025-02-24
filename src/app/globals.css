@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+main {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.banner-bg {
+  background-color: #0e1833;
+  background-image: url("/banner/banner-novo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.banner-topo {
+  background-color: #ececec;
+  background-image: url("/banner/banner-topo.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.bg-custom {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 4.5%,
+    rgba(245, 245, 245, 1) 4.5%,
+    rgba(245, 245, 245, 1) 95.5%,
+    rgba(255, 255, 255, 1) 95.5%
+  );
+}
+
+.swiper-pagination {
+  display: flex;
+  gap: 5px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #5eb93e;
+}
+
+.delay-animation {
+  transition: background-color 0.2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s,
+    opacity 0.2s ease 600ms, transform 0.2s ease 700ms !important;
+}
+
+.karl-avatar {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .banner-bg {
+    background-size: 100vh auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .bg-custom {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(245, 245, 245, 1) 4.5%,
+      rgba(245, 245, 245, 1) 4.5%,
+      rgba(245, 245, 245, 1) 95.5%,
+      rgba(245, 245, 245, 1) 95.5%
+    );
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-bg {
+    background-color: #0e1833;
+    background-image: url("/banner/banner-novo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+  }
+  .karl-avatar {
+    position: relative;
+    bottom: -30px;
+    left: 20px;
+    padding-top: 50px;
+  }
+}
