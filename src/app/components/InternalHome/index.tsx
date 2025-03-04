@@ -141,6 +141,7 @@ export const InternalHome = () => {
           <div className="mt-4">
             <span className="text-gray-800 text-sm">A partir de</span>
             <h2 className="text-4xl font-extrabold text-black">{homeData?.price}</h2>
+            <span className="text-xs text-gray-700">Ref: {homeData.ref}</span>
 
             <div className="my-4  text-gray-700 grid grid-cols-2 gap-x-4 gap-y-2 sm:flex sm:items-center sm:gap-12">
               <span className="flex items-center gap-2"><IconRuler2 /> {homeData?.size ?? "-"} m²</span>
