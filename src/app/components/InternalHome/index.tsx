@@ -2,14 +2,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FaBed, FaBath, FaCar, FaRulerCombined } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import { IconBat, IconBath, IconBed, IconCar, IconChevronLeft, IconChevronRight, IconRuler2 } from "@tabler/icons-react";
+import { IconBath, IconBed, IconCar, IconChevronLeft, IconChevronRight, IconRuler2 } from "@tabler/icons-react";
 import Image from "next/image";
-import { SmoothScroll } from "@/app/utils/SmoothScroll";
 
 interface HomeData {
   slug: string;
@@ -77,11 +75,11 @@ export const InternalHome = () => {
     const homeReference = homeData?.slug || "Não informado";
 
     const text = `Olá, meu nome é ${nome}.%0A
-  Email: ${email}%0A
-  Telefone: ${telefone}%0A
-  Mensagem: ${mensagem}%0A%0A
-  Imóvel de referência: ${homeReference}
-  Link do imóvel: ${currentUrl}`;
+      Email: ${email}%0A
+      Telefone: ${telefone}%0A
+      Mensagem: ${mensagem}%0A%0A
+      Imóvel de referência: ${homeReference}
+      Link do imóvel: ${currentUrl}`;
 
     const phone = "5511958089527";
     const whatsappUrl = `https://wa.me/${phone}?text=${text}`;
