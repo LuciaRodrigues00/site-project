@@ -432,7 +432,7 @@ export const allHomes = [
       (_, i) => `/homes/imovel-14/imovel-${i + 1}.jpeg`,
     ),
     address: "Altos de Suzano/Cidade Edson",
-    description: "Chácaar Altos de Suzano!",
+    description: "Chácara Altos de Suzano!",
     homeDescription: `
     Rua das Chácaras - Altos de Suzano / Cidade Edson
     
