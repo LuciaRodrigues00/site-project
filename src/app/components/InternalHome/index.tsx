@@ -149,7 +149,7 @@ export const InternalHome = () => {
 
           <div className="flex flex-col gap-4 lg:mr-20">
             <span className="text-lg font-bold text-gray-700">Descrição do imóvel</span>
-            <span className="text-gray-600" style={{ whiteSpace: "pre-line" }}>{homeData?.homeDescription}</span>
+            <span className="text-gray-600 text-base whitespace-pre-line">{homeData?.homeDescription}</span>
           </div>
         </div>
 
