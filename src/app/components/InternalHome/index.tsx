@@ -78,7 +78,6 @@ export const InternalHome = () => {
       Email: ${email}%0A
       Telefone: ${telefone}%0A
       Mensagem: ${mensagem}%0A%0A
-      Imóvel de referência: ${homeReference}
       Link do imóvel: ${currentUrl}`;
 
     const phone = "5511958089527";
