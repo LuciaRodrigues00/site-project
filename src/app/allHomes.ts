@@ -107,7 +107,7 @@ export const allHomes = [
     description: "Condomínio Bonini",
     homeDescription: `
 
-            Condomínio Bonini - Poá 
+          Condomínio Bonini - Poá 
 
       - 3 quartos.
       - 2 banheiros.
