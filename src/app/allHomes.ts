@@ -49,11 +49,11 @@ export const allHomes = [
     homeDescription: `
           Condomínio Predilleto - Suzano 
 
-      - 2 quartos aconchegantes, garantindo conforto e privacidade.
-      - 1 banheiro moderno e bem distribuído.
-      - Sala de estar integrada, proporcionando um ambiente amplo e funcional.
-      - Cozinha compacta, ideal para otimização de espaço.
-      - 1 vaga de garagem, trazendo segurança e comodidade.
+      - 2 quartos.
+      - 1 banheiro.
+      - Sala.
+      - Cozinha.
+      - 1 vaga de garagem.
 
       Agende uma visita e conheça de perto essa oportunidade!
     
@@ -78,11 +78,13 @@ export const allHomes = [
 
         Condomínio Predilleto - Mogi das Cruzes 
 
-      - 2 quartos bem distribuídos.
-      - 1 banheiro funcional com acabamento moderno.
-      - Sala de estar integrada.
-      - Cozinha prática e bem planejada.
+      - 2 quarto.
+      - 1 banheiro.
+      - Sala.
+      - Cozinha.
       - 1 vaga de garagem.
+      - Área de serviço.
+
 
       Agende sua visita!
     `,
@@ -106,11 +108,10 @@ export const allHomes = [
 
             Condomínio Bonini - Poá 
 
-      - 3 quartos amplos e bem iluminados.
-      - 2 banheiros com acabamentos modernos.
-      - Sala espaçosa e aconchegante.
-      - Cozinha funcional e bem distribuída.
-      - 2 vagas de garagem.
+      - 3 quartos.
+      - 2 banheiros.
+      - Sala.
+      - Cozinha.
 
       Agende sua visita e venha conhecer!
       `,
@@ -134,11 +135,12 @@ export const allHomes = [
 
           Condomínio Santa Tereza 
 
-      - 2 quartos aconchegantes.
-      - 1 banheiro funcional.
+      - 2 quartos.
+      - 1 banheiro.
       - Sala integrada.
-      - Cozinha compacta e bem planejada.
+      - Cozinha.
       - 1 vaga de garagem.
+      - Área de serviço.
 
       Agende uma visita e conheça de perto essa oportunidade!`,
   },
@@ -167,7 +169,7 @@ export const allHomes = [
     -  Banheiro social 
     -  Área de serviço 
     -  2 vagas de garagem, sendo uma descoberta.
-    
+
       Piscina, playground, salão de festas, academia, portaria 24h.
 
     Agende sua visita!`,
@@ -222,11 +224,11 @@ export const allHomes = [
 
     Condomínio My Helbor - Mogi das Cruzes
 
-    - 2 dormitórios, sendo 1 suíte elegante.
-    - 2 banheiros modernos e bem equipados.
+    - 2 dormitórios, sendo 1 suíte.
     - Sala de estar e jantar integradas.
-    - Cozinha planejada com ótimo aproveitamento de espaço.
-    - Área de serviço independente.
+    - 2 banheiros.
+    - Cozinha planejada.
+    - Área de serviço.
     - 1 vaga de garagem.
 
     Agende sua visita e venha se encantar com este imóvel exclusivo!`,
@@ -250,11 +252,11 @@ export const allHomes = [
 
     Condomínio Portal das Artes - Suzano
 
-    - 2 dormitórios bem distribuídos.
-    - 1 banheiro social moderno.
+    - 2 dormitórios.
     - Sala de estar e jantar integradas.
-    - Cozinha planejada para maior funcionalidade.
-    - Área de serviço independente.
+    - 1 banheiro social.
+    - Cozinha planejada.
+    - Área de serviço.
     - 1 vaga de garagem.
 
     Agende sua visita e garanta seu novo lar!`,
@@ -278,11 +280,11 @@ export const allHomes = [
 
     Condomínio Portal das Artes - Suzano
 
-    - 2 dormitórios aconchegantes.
-    - 1 banheiro social com ótimo acabamento.
-    - Sala integrada, proporcionando amplitude ao ambiente.
-    - Cozinha prática e planejada.
-    - Área de serviço funcional.
+    - 2 dormitórios.
+    - 1 banheiro social.
+    - Sala integrada.
+    - Cozinha planejada.
+    - Área de serviço.
     - 1 vaga de garagem.
 
     Agende uma visita e venha conhecer!`,
@@ -329,13 +331,13 @@ export const allHomes = [
 
     Condomínio aldeia bianca IV - Poá
 
-      - 2 dormitórios espaçosos.
-      - Sala de jantar e sala de estar integradas.
-      - Cozinha planejada, funcional e moderna.
-      - 3 banheiros bem distribuídos.
-      - Área de serviço independente.
-      - 2 vagas de garagem.
-      - Aceita financiamento.
+     - 2 dormitórios sendo uma suíte 
+     - Sala 
+     - Cozinha planejada 
+     - Banheiro 
+     - Área de serviço 
+     - 2 vagas de garagem descobertas 
+     - Aceita financiamento 
 
       Agende uma visita e conheça este belo imóvel!`,
   },
@@ -377,38 +379,38 @@ export const allHomes = [
     Além disso, a chácara oferece amplo estacionamento e está totalmente murada, com 54 metros de frente para a rua.
   `,
   },
-  {
-    id: 14,
-    slug: "imovel-14",
-    ref: "CH001",
-    price: "R$ 1.800.000,00",
-    size: "5565",
-    bedrooms: "",
-    bathrooms: "",
-    garage: "",
-    images: Array.from(
-      { length: 4 },
-      (_, i) => `/homes/imovel-14/imovel-${i + 1}.jpeg`,
-    ),
-    address: "Altos de Suzano/Cidade Edson",
-    description: "Chácara Altos de Suzano!",
-    homeDescription: `
-    Rua das Chácaras - Altos de Suzano / Cidade Edson
+  // {
+  //   id: 14,
+  //   slug: "imovel-14",
+  //   ref: "CH001",
+  //   price: "R$ 1.800.000,00",
+  //   size: "5565",
+  //   bedrooms: "",
+  //   bathrooms: "",
+  //   garage: "",
+  //   images: Array.from(
+  //     { length: 4 },
+  //     (_, i) => `/homes/imovel-14/imovel-${i + 1}.jpeg`,
+  //   ),
+  //   address: "Altos de Suzano/Cidade Edson",
+  //   description: "Chácara Altos de Suzano!",
+  //   homeDescription: `
+  //   Rua das Chácaras - Altos de Suzano / Cidade Edson
     
-    Localizada na Rua das Chácaras, no Altos de Suzano, Cidade Edson, esta propriedade possui uma área total de 5.565 m², com 1.100 m² de área construída. Está à venda por R$1.800.000,00 e é uma excelente oportunidade para diversos tipos de investidores.
+  //   Localizada na Rua das Chácaras, no Altos de Suzano, Cidade Edson, esta propriedade possui uma área total de 5.565 m², com 1.100 m² de área construída. Está à venda por R$1.800.000,00 e é uma excelente oportunidade para diversos tipos de investidores.
   
-    A propriedade é totalmente murada, com 80 metros de frente, e possui diversas edificações:
+  //   A propriedade é totalmente murada, com 80 metros de frente, e possui diversas edificações:
   
-    - 1 Casa de 140 m², composta por 6 quartos, 2 salas, 3 banheiros e 2 cozinhas.
-    - Salão de Festas com 6 banheiros e cozinha industrial, ideal para grandes eventos.
-    - Sala de Jogos com 2 banheiros e cozinha americana.
-    - Área de Churrasqueira/Forno e infraestrutura anexa, pronta para uso.
+  //   - 1 Casa de 140 m², composta por 6 quartos, 2 salas, 3 banheiros e 2 cozinhas.
+  //   - Salão de Festas com 6 banheiros e cozinha industrial, ideal para grandes eventos.
+  //   - Sala de Jogos com 2 banheiros e cozinha americana.
+  //   - Área de Churrasqueira/Forno e infraestrutura anexa, pronta para uso.
     
-    A propriedade também oferece um amplo espaço coberto, que pode ser utilizado para conferências, reuniões, locações para empresas, escolas, igrejas e eventos em geral, com capacidade para até 500 pessoas.
+  //   A propriedade também oferece um amplo espaço coberto, que pode ser utilizado para conferências, reuniões, locações para empresas, escolas, igrejas e eventos em geral, com capacidade para até 500 pessoas.
   
-    Além disso, há outras áreas preparadas para construção de novas edificações.
+  //   Além disso, há outras áreas preparadas para construção de novas edificações.
   
-    O imóvel oferece um amplo estacionamento com capacidade para até 80 vagas.
-    `,
-  },
+  //   O imóvel oferece um amplo estacionamento com capacidade para até 80 vagas.
+  //   `,
+  // },
 ];
