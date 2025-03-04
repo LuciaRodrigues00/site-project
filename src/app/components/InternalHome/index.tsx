@@ -10,6 +10,7 @@ import { IconBath, IconBed, IconCar, IconChevronLeft, IconChevronRight, IconRule
 import Image from "next/image";
 
 interface HomeData {
+  ref: string;
   slug: string;
   title: string;
   description: string;
@@ -33,7 +34,7 @@ export const InternalHome = () => {
     nome: "",
     email: "",
     telefone: "",
-    mensagem: "",
+    mensagem: "Tenho interesse no imóvel",
   });
 
 
@@ -72,13 +73,15 @@ export const InternalHome = () => {
   const handleSendMessage = () => {
     const { nome, email, telefone, mensagem } = form;
 
-    const homeReference = homeData?.slug || "Não informado";
+    const homeReference = homeData?.ref || "Não informado";
 
     const text = `Olá, meu nome é ${nome}.%0A
       Email: ${email}%0A
       Telefone: ${telefone}%0A
       Mensagem: ${mensagem}%0A%0A
-      Link do imóvel: ${currentUrl}`;
+      Link do imóvel: ${currentUrl}
+      ref: ${homeReference}
+      `;
 
     const phone = "5511958089527";
     const whatsappUrl = `https://wa.me/${phone}?text=${text}`;
@@ -99,8 +102,8 @@ export const InternalHome = () => {
           slidesPerView={3}
           spaceBetween={10}
           breakpoints={{
-            0: { slidesPerView: 1 }, // No mobile, mostra 1 slide por vez
-            1024: { slidesPerView: 3 }, // A partir de lg (1024px), mantém 3 slides
+            0: { slidesPerView: 1 }, 
+            1024: { slidesPerView: 3 },
           }}
           className="w-full h-[400px] overflow-hidden"
         >
