@@ -30,6 +30,7 @@ export const InternalHome = () => {
   const params = useParams();
   const [homeData, setHomeData] = useState<HomeData | null>(null);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const currentUrl = window.location.href;
   const [form, setForm] = useState({
     nome: "",
     email: "",
@@ -79,7 +80,8 @@ export const InternalHome = () => {
   Email: ${email}%0A
   Telefone: ${telefone}%0A
   Mensagem: ${mensagem}%0A%0A
-  Imóvel de referência: ${homeReference}`;
+  Imóvel de referência: ${homeReference}
+  Link do imóvel: ${currentUrl}`;
 
     const phone = "5511958089527";
     const whatsappUrl = `https://wa.me/${phone}?text=${text}`;
@@ -104,7 +106,7 @@ export const InternalHome = () => {
             1024: { slidesPerView: 3 }, // A partir de lg (1024px), mantém 3 slides
           }}
           className="w-full h-[400px] overflow-hidden"
-          >
+        >
           {homeData.images.map((image, index) => (
             <SwiperSlide key={index} className="h-full">
               <img
