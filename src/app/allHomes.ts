@@ -161,20 +161,22 @@ export const allHomes = [
 
     Condomínio Green Valle - Mogi das Cruzes
 
-    - 3 dormitórios, sendo um suíte.
-    - 2 banheiro moderno e bem acabado.
-    - Sala de estar ampla com sacada.
-    - Cozinha.
-    - 2 vagas de garagem, sendo uma coberta..
+    -  3 dormitórios sendo uma suíte.
+    -  Sala com sacada 
+    -  Cozinha planejada 
+    -  Banheiro social 
+    -  Área de serviço 
+    -  2 vagas de garagem, sendo uma descoberta.
+    
+      Piscina, playground, salão de festas, academia, portaria 24h.
 
-    Piscina, playground, salão de festas, academia, portaria 24h.
     Agende sua visita!`,
   },
   {
     id: 7,
     slug: "imovel-7",
     ref: "SO003",
-    price: "R$ 450.000,00",
+    price: "R$ 260.000,00",
     size: 120,
     bedrooms: 3,
     bathrooms: 2,
@@ -189,12 +191,15 @@ export const allHomes = [
 
     Condomínio Jardim Europa - Mogi das Cruzes
 
-    - 3 dormitórios amplos, sendo 1 suíte.
-    - 2 banheiros bem distribuídos.
-    - Sala de estar e jantar integradas.
-    - Cozinha funcional com planejados.
-    - Área de serviço independente.
-    - 2 vagas de garagem.
+   Sobrado em condomínio 
+
+    - 2 quartos sendo duas suítes 
+    - Sala 
+    - Cozinha 
+    - Lavabo 
+    - Área de serviço 
+    - Vaga de garagem descoberta 
+    - Aceita financiamento 
 
     Não perca essa oportunidade! Agende sua visita.`,
   },
