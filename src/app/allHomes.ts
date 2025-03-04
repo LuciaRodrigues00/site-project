@@ -13,8 +13,30 @@ export const allHomes = [
     ),
     address: "Mogi das Cruzes - SP",
     description: "Condomínio Veredas",
-    homeDescription:
-      "Apartamento espaçoso com 5 quartos e 1 banheiro, ideal para famílias grandes. Localizado em um condomínio de alto padrão, oferece segurança e conforto, além de 4 vagas de garagem e fácil acesso a comércios e serviços. Agende uma visita!",
+    homeDescription: `
+    Mogi das Cruzes - SP / Condomínio Veredas
+
+    Localizado em um dos condomínios mais exclusivos de Mogi das Cruzes, o Condomínio Veredas, este imóvel é a opção ideal para quem busca sofisticação, segurança e espaço. Com uma área total de 300 m², esta propriedade foi projetada para oferecer conforto e funcionalidade em cada detalhe. Está à venda por R$ 2.300.000,00 e representa uma excelente oportunidade para quem deseja morar com qualidade de vida.
+    
+    O imóvel conta com uma distribuição inteligente dos espaços e acabamentos de alto padrão:
+    
+    - 5 amplos quartos, sendo 4 suítes, uma suíte master e com closet, proporcionando espaço e privacidade para toda a família.
+    - 1 banheiro bem planejado, com acabamentos modernos e de fácil manutenção.
+    - Sala espaçosa e bem iluminada, integrando-se perfeitamente com os demais ambientes.
+    - Cozinha moderna, planejada para atender todas as necessidades culinárias da família.
+    - 4 vagas de garagem, garantindo segurança e comodidade para os moradores e visitantes.
+    - Área externa com paisagismo sofisticado, ideal para momentos de lazer e descanso.
+    
+    O Condomínio Veredas se destaca pelo alto padrão de infraestrutura e segurança, contando com portaria 24 horas, monitoramento por câmeras, área de lazer completa e fácil acesso a comércios, serviços e principais vias da região.
+    
+    Essa propriedade é ideal para:
+    
+    1. Famílias que buscam um imóvel espaçoso, seguro e bem localizado.
+    2. Investidores interessados em uma propriedade de alto padrão com excelente valorização.
+    3. Quem deseja viver em um ambiente tranquilo, cercado de áreas verdes e estrutura completa.
+    
+    Agende uma visita e conheça de perto esse imóvel exclusivo!
+    `,
   },
   {
     id: 2,
@@ -30,8 +52,24 @@ export const allHomes = [
     ),
     address: "Suzano - SP, Bairro Casa Branca",
     description: "Condomínio Predilleto",
-    homeDescription:
-      "Apartamento compacto e funcional, perfeito para casais ou pequenas famílias. Conta com 2 quartos, 1 banheiro e 1 vaga de garagem. Localizado em condomínio seguro e bem estruturado, próximo a transporte público, escolas e comércios. Ótima oportunidade!",
+    homeDescription: `
+      Suzano - SP / Condomínio Predilleto
+
+      Localizado no bairro Casa Branca, em Suzano - SP, o Condomínio Predilleto é a escolha perfeita para quem busca um apartamento funcional e bem localizado. Com uma área de 50 m², este imóvel é ideal para casais ou pequenas famílias. Está à venda por R$ 230.000,00 e representa uma excelente oportunidade de investimento.
+
+      O imóvel conta com:
+
+      - 2 quartos aconchegantes, garantindo conforto e privacidade.
+      - 1 banheiro moderno e bem distribuído.
+      - Sala de estar integrada, proporcionando um ambiente amplo e funcional.
+      - Cozinha compacta, ideal para otimização de espaço.
+      - 1 vaga de garagem, trazendo segurança e comodidade.
+
+      O Condomínio Predilleto oferece uma infraestrutura completa, com segurança 24 horas, espaço de lazer e fácil acesso a transporte público, escolas, supermercados e demais comércios locais.
+
+      Agende uma visita e conheça de perto essa oportunidade!
+    
+    `,
   },
   {
     id: 3,
@@ -47,8 +85,23 @@ export const allHomes = [
     ),
     address: "Braz Cubas, Mogi das Cruzes - SP",
     description: "Condomínio Manacá",
-    homeDescription:
-      "Apartamento aconchegante com 2 quartos e 1 banheiro, localizado em um condomínio bem estruturado. Perfeito para quem busca praticidade e um bom custo-benefício. O imóvel conta com 1 vaga de garagem e proximidade a comércios locais e transporte público.",
+    homeDescription: `
+      Braz Cubas, Mogi das Cruzes - SP / Condomínio Manacá
+
+      Situado no bairro Braz Cubas, em Mogi das Cruzes - SP, o Condomínio Manacá é uma excelente opção para quem busca um apartamento aconchegante e bem localizado. Com 2 quartos e 1 banheiro, é perfeito para quem deseja praticidade e um bom custo-benefício. Está à venda por R$ 185.000,00.
+
+      Características do imóvel:
+
+      - 2 quartos bem distribuídos.
+      - 1 banheiro funcional com acabamento moderno.
+      - Sala de estar integrada.
+      - Cozinha prática e bem planejada.
+      - 1 vaga de garagem.
+
+      O Condomínio Manacá conta com área de lazer, portaria 24 horas e proximidade a comércios e transporte público.
+
+      Agende sua visita!
+    `,
   },
   {
     id: 4,
@@ -64,8 +117,23 @@ export const allHomes = [
     ),
     address: "Poá - SP",
     description: "Condomínio Bonini",
-    homeDescription:
-      "Casa ampla com 3 quartos e 2 banheiros, situada em um condomínio seguro e bem localizado. Ideal para famílias que buscam conforto e praticidade, com acesso fácil a transporte público e comércios. Ótima oportunidade!",
+    homeDescription: `
+      Poá - SP / Condomínio Bonini
+
+      Localizada em Poá - SP, esta casa ampla no Condomínio Bonini é ideal para famílias que buscam espaço, conforto e segurança. Com 3 quartos e 2 banheiros, essa propriedade é uma ótima oportunidade de investimento. Está à venda por R$ 350.000,00.
+
+      O imóvel possui:
+
+      - 3 quartos amplos e bem iluminados.
+      - 2 banheiros com acabamentos modernos.
+      - Sala espaçosa e aconchegante.
+      - Cozinha funcional e bem distribuída.
+      - 2 vagas de garagem.
+
+      O Condomínio Bonini oferece um ambiente tranquilo e seguro, com fácil acesso a transporte público e comércios locais.
+
+      Agende sua visita e venha conhecer!
+      `,
   },
   {
     id: 5,
@@ -81,8 +149,21 @@ export const allHomes = [
     ),
     address: "Jardim Santa Tereza",
     description: "Condomínio Santa Tereza",
-    homeDescription:
-      "Apartamento funcional com 2 quartos e 1 banheiro. Excelente opção para quem busca um imóvel bem localizado e com preço acessível. Agende uma visita para conhecer mais detalhes!",
+    homeDescription: `Jardim Santa Tereza / Condomínio Santa Tereza
+
+      O Condomínio Santa Tereza, localizado no Jardim Santa Tereza, oferece um apartamento funcional e bem planejado para quem busca praticidade e conforto. Com 2 quartos e 1 banheiro, é uma excelente opção para quem deseja um imóvel acessível e bem localizado. Está à venda por R$ 200.000,00.
+
+      O imóvel conta com:
+
+      - 2 quartos aconchegantes.
+      - 1 banheiro funcional.
+      - Sala integrada.
+      - Cozinha compacta e bem planejada.
+      - 1 vaga de garagem.
+
+      O Condomínio Santa Tereza está próximo a serviços essenciais, como supermercados, escolas e transporte público.
+
+      Agende uma visita e conheça de perto essa oportunidade!`,
   },
   {
     id: 6,
@@ -98,8 +179,22 @@ export const allHomes = [
     ),
     address: "Suzano - SP",
     description: "Residencial Nova Vida",
-    homeDescription:
-      "Apartamento moderno com 2 quartos, 1 banheiro e 1 vaga de garagem. Conta com infraestrutura completa e segurança 24h. Excelente localização, próximo a escolas, comércios e transporte público. Agende sua visita!",
+    homeDescription: `Residencial Nova Vida - Suzano
+
+    O Residencial Nova Vida é a escolha ideal para quem busca conforto e qualidade de vida. Com um design moderno e ambientes bem distribuídos, este apartamento de 65m² oferece uma experiência única de moradia. Está à venda por R$ 280.000,00.
+
+    O imóvel conta com:
+
+    - 2 dormitórios espaçosos.
+    - 1 banheiro moderno e bem acabado.
+    - Sala de estar ampla e iluminada.
+    - Cozinha planejada para maior praticidade.
+    - 1 vaga de garagem coberta.
+    - Área de serviço integrada.
+
+    O condomínio oferece segurança 24h e infraestrutura completa, com playground, salão de festas e áreas de convivência. Está localizado próximo a escolas, supermercados, farmácias e transporte público.
+
+    Agende sua visita e venha conhecer este excelente imóvel!`,
   },
   {
     id: 7,
@@ -115,8 +210,22 @@ export const allHomes = [
     ),
     address: "Mogi das Cruzes - SP",
     description: "Condomínio Jardim Europa",
-    homeDescription:
-      "Casa espaçosa com 3 quartos, 2 banheiros e 2 vagas de garagem. Localizada em condomínio fechado, com área de lazer e segurança 24h. Ideal para famílias que buscam conforto e praticidade. Não perca essa oportunidade!",
+    homeDescription: `Condomínio Jardim Europa - Mogi das Cruzes
+
+    Localizado em um dos bairros mais valorizados de Mogi das Cruzes, o Condomínio Jardim Europa oferece segurança, lazer e conforto para sua família. Esta casa espaçosa de 120m² proporciona o equilíbrio ideal entre praticidade e sofisticação. Está à venda por R$ 450.000,00.
+
+    O imóvel conta com:
+
+    - 3 dormitórios amplos, sendo 1 suíte.
+    - 2 banheiros bem distribuídos.
+    - Sala de estar e jantar integradas.
+    - Cozinha funcional com planejados.
+    - Área de serviço independente.
+    - 2 vagas de garagem.
+
+    O condomínio conta com segurança 24h, salão de festas, piscina e espaço de lazer para crianças. Está próximo a comércios, escolas e tem fácil acesso ao transporte público.
+
+    Não perca essa oportunidade! Agende sua visita.`,
   },
   {
     id: 8,
@@ -132,8 +241,22 @@ export const allHomes = [
     ),
     address: "Mogi das Cruzes",
     description: "Condomínio My Helbor.",
-    homeDescription:
-      "2 Dormitórios sendo uma suíte\nSala de jantar\nSala de estar\nCozinha planejada\nBanheiro social\nÁrea de serviço\n1 vaga de garagem\nAceita financiamento.\n\nVamos agendar uma visita!",
+    homeDescription: `Condomínio My Helbor - Mogi das Cruzes
+
+    O Condomínio My Helbor é sinônimo de sofisticação e praticidade, oferecendo um estilo de vida moderno e confortável. Este apartamento de 70m² é perfeito para quem busca um imóvel de alto padrão com excelente localização. Está à venda por R$ 750.000,00.
+
+    O imóvel conta com:
+
+    - 2 dormitórios, sendo 1 suíte elegante.
+    - 2 banheiros modernos e bem equipados.
+    - Sala de estar e jantar integradas.
+    - Cozinha planejada com ótimo aproveitamento de espaço.
+    - Área de serviço independente.
+    - 1 vaga de garagem.
+
+    O condomínio possui uma infraestrutura completa, incluindo piscina, academia, salão de festas e segurança 24h. Sua localização privilegiada facilita o acesso a shopping centers, restaurantes e serviços essenciais.
+
+    Agende sua visita e venha se encantar com este imóvel exclusivo!`,
   },
   {
     id: 9,
@@ -149,8 +272,22 @@ export const allHomes = [
     ),
     address: "Vila Urupês Suzano",
     description: "Condomínio Portal das Artes.",
-    homeDescription:
-      "2 Dormitórios\nSala de jantar\nSala de estar\nCozinha planejada\nBanheiro social\nÁrea de serviço\n1 vaga de garagem\nAceita financiamento.\n\nVamos agendar uma visita!",
+    homeDescription: `Condomínio Portal das Artes - Vila Urupês, Suzano
+
+    Situado em uma das regiões mais tranquilas de Suzano, o Condomínio Portal das Artes oferece um apartamento bem planejado e confortável. Com um excelente custo-benefício, este imóvel é uma ótima oportunidade para quem busca segurança e praticidade. Está à venda por R$ 220.000,00.
+
+    O imóvel conta com:
+
+    - 2 dormitórios bem distribuídos.
+    - 1 banheiro social moderno.
+    - Sala de estar e jantar integradas.
+    - Cozinha planejada para maior funcionalidade.
+    - Área de serviço independente.
+    - 1 vaga de garagem.
+
+    O condomínio dispõe de portaria 24h, área de lazer e estacionamento interno. Sua localização é estratégica, com fácil acesso a mercados, escolas, farmácias e transporte público.
+
+    Agende sua visita e garanta seu novo lar!`,
   },
   {
     id: 10,
@@ -166,8 +303,22 @@ export const allHomes = [
     ),
     address: "Vila Urupês Suzano",
     description: "Condomínio Portal das Artes",
-    homeDescription:
-      "2 Dormitórios\nSala de jantar\nSala de estar\nCozinha planejada\nBanheiro social\nÁrea de serviço\n1 vaga de garagem\nAceita financiamento.\n\nVamos agendar uma visita!",
+    homeDescription: `Condomínio Portal das Artes - Vila Urupês, Suzano
+
+    Com uma proposta de moradia acessível e funcional, o Condomínio Portal das Artes oferece um ambiente seguro e acolhedor para sua família. Este apartamento de 54m² é ideal para quem deseja um espaço bem distribuído e localizado. Está à venda por R$ 212.000,00.
+
+    O imóvel conta com:
+
+    - 2 dormitórios aconchegantes.
+    - 1 banheiro social com ótimo acabamento.
+    - Sala integrada, proporcionando amplitude ao ambiente.
+    - Cozinha prática e planejada.
+    - Área de serviço funcional.
+    - 1 vaga de garagem.
+
+    O condomínio oferece segurança 24h e está próximo a supermercados, farmácias e pontos de ônibus. Com excelente custo-benefício, este é o imóvel ideal para quem deseja morar bem sem abrir mão da conveniência.
+
+    Agende uma visita e venha conhecer!`,
   },
   {
     id: 11,
@@ -183,9 +334,18 @@ export const allHomes = [
     ),
     address: "Jardim Lincoln Suzano",
     description: "Terreno plano 5x31.",
-    homeDescription:
-      "Terreno plano de 155 m² no Jardim Lincoln, Suzano. Com medidas de 5x31, esse terreno oferece amplo espaço para construção, ideal para quem busca investir ou construir seu lar.\n\nVamos agendar uma visita!",
-  },
+    homeDescription: `Terreno Plano - Jardim Lincoln, Suzano
+
+    Este terreno de 155m², com medidas de 5x31, oferece uma excelente oportunidade para quem deseja construir sua casa ou investir em um projeto imobiliário. Localizado no Jardim Lincoln, em Suzano, proporciona fácil acesso a comércios, escolas e transporte público.
+
+    Principais características:
+
+    - Área total de 155m² (5x31).
+    - Terreno plano, pronto para construir.
+    - Localização estratégica, em bairro residencial tranquilo.
+
+    Não perca essa oportunidade! Entre em contato e agende uma visita.`,
+},
   {
     id: 12,
     slug: "imovel-12",
@@ -200,9 +360,24 @@ export const allHomes = [
     ),
     address: "Santa Helena - Poá",
     description: "Condomínio aldeia bianca IV.",
-    homeDescription:
-      "2 Dormitórios\nSala de jantar\nSala de estar\nCozinha planejada\nBanheiro social\nÁrea de serviço\n2 vagas de garagem\nAceita financiamento.\n\nVamos agendar uma visita!",
-  },
+    homeDescription: `Condomínio Aldeia Bianca IV - Santa Helena, Poá
+
+      Este lindo sobrado no Condomínio Aldeia Bianca IV oferece conforto e praticidade em um ambiente seguro e bem estruturado. Com 74,84m², conta com uma distribuição inteligente dos espaços e acabamento de qualidade. Está à venda por R$ 480.000,00.
+
+      O imóvel conta com:
+
+      - 2 dormitórios espaçosos.
+      - Sala de jantar e sala de estar integradas.
+      - Cozinha planejada, funcional e moderna.
+      - 3 banheiros bem distribuídos.
+      - Área de serviço independente.
+      - 2 vagas de garagem.
+      - Aceita financiamento.
+
+      O condomínio proporciona um ambiente seguro e tranquilo, ideal para famílias que buscam qualidade de vida. 
+
+      Agende uma visita e conheça este belo imóvel!`,
+},
   {
     id: 13,
     slug: "imovel-13",
@@ -215,8 +390,8 @@ export const allHomes = [
       { length: 34 },
       (_, i) => `/homes/imovel-13/imovel-${i + 1}.jpeg`,
     ),
-    address: "Chácara dos Fernandes - Estância Paulista",
-    description: "Chácara com diversas casas, lazer e muito mais!",
+    address: "Estância Paulista",
+    description: "Chácara dos Fernandes!",
     homeDescription: `
     Chácara dos Fernandes - Estância Paulista
 
@@ -257,7 +432,7 @@ export const allHomes = [
       (_, i) => `/homes/imovel-14/imovel-${i + 1}.jpeg`,
     ),
     address: "Altos de Suzano/Cidade Edson",
-    description: "Uma das melhores da região!",
+    description: "Chácaar Altos de Suzano!",
     homeDescription: `
     Rua das Chácaras - Altos de Suzano / Cidade Edson
     
