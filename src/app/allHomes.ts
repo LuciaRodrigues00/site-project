@@ -53,6 +53,7 @@ export const allHomes = [
       - 1 banheiro.
       - Sala.
       - Cozinha.
+      - Área de serviço.
       - 1 vaga de garagem.
 
       Agende uma visita e conheça de perto essa oportunidade!
@@ -110,7 +111,8 @@ export const allHomes = [
 
       - 3 quartos.
       - 2 banheiros.
-      - Sala.
+      - Sala.     
+      - Área de serviço.
       - Cozinha.
 
       Agende sua visita e venha conhecer!
@@ -396,20 +398,20 @@ export const allHomes = [
   //   description: "Chácara Altos de Suzano!",
   //   homeDescription: `
   //   Rua das Chácaras - Altos de Suzano / Cidade Edson
-    
+
   //   Localizada na Rua das Chácaras, no Altos de Suzano, Cidade Edson, esta propriedade possui uma área total de 5.565 m², com 1.100 m² de área construída. Está à venda por R$1.800.000,00 e é uma excelente oportunidade para diversos tipos de investidores.
-  
+
   //   A propriedade é totalmente murada, com 80 metros de frente, e possui diversas edificações:
-  
+
   //   - 1 Casa de 140 m², composta por 6 quartos, 2 salas, 3 banheiros e 2 cozinhas.
   //   - Salão de Festas com 6 banheiros e cozinha industrial, ideal para grandes eventos.
   //   - Sala de Jogos com 2 banheiros e cozinha americana.
   //   - Área de Churrasqueira/Forno e infraestrutura anexa, pronta para uso.
-    
+
   //   A propriedade também oferece um amplo espaço coberto, que pode ser utilizado para conferências, reuniões, locações para empresas, escolas, igrejas e eventos em geral, com capacidade para até 500 pessoas.
-  
+
   //   Além disso, há outras áreas preparadas para construção de novas edificações.
-  
+
   //   O imóvel oferece um amplo estacionamento com capacidade para até 80 vagas.
   //   `,
   // },
